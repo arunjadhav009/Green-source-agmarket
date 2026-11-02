@@ -14,7 +14,7 @@ from pathlib import Path
 
 import requests
 
-from agmarket_fetch import fetch_records, build_groups, save_csv
+from agmarket_fetch import fetch_records, fetch_today_records, build_groups, save_csv
 
 PAGE_ID = "609269705592123"
 IG_ACCOUNT_ID = "17841412056274162"
@@ -55,8 +55,15 @@ def run(script, env):
 
 
 def main():
-    records = fetch_records()
-    post_date, groups = build_groups(records)
+    # आजचा डेटा आला तरच पोस्ट: नसेल तर 5-5 मिनिटांनी 45 मिनिटांपर्यंत वाट पाहणे
+    if DRY_RUN:
+        records = fetch_records()
+    else:
+        records = fetch_today_records(wait_minutes=45, every_minutes=5)
+        if records is None:
+            print("❌ 45 मिनिटं थांबूनही आजचा Agmarknet डेटा आला नाही. जुना डेटा पोस्ट करणार नाही — आज पोस्ट नाही.")
+            sys.exit(1)
+    post_date, groups = build_groups(records, allow_old=DRY_RUN)
     if ONLY:
         wanted = [s.strip().lower() for s in ONLY.split(",") if s.strip()]
         groups = [g for g in groups if any(w in g["state"].lower() for w in wanted)]

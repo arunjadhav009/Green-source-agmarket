@@ -72,6 +72,31 @@ def _date_key(d):
         return 0
 
 
+def today_str():
+    return datetime.now(IST).strftime("%d/%m/%Y")
+
+
+def has_today(records):
+    t = _date_key(today_str())
+    return any(_date_key(str(r.get("arrival_date") or "").strip()) == t for r in records)
+
+
+def fetch_today_records(wait_minutes=45, every_minutes=5):
+    """आजचा डेटा येईपर्यंत थांबणे. आला की लगेच परत. वेळेत आला नाही तर None."""
+    deadline = time.time() + wait_minutes * 60
+    while True:
+        recs = fetch_records()
+        if has_today(recs):
+            return recs
+        left = deadline - time.time()
+        if left <= 0:
+            return None
+        nap = min(every_minutes * 60, left)
+        print(f"⏳ data.gov.in वर आजचा ({today_str()}) डेटा अजून नाही. {int(nap // 60)} मिनिटांनी परत तपासतो "
+              f"(अजून {int(left // 60)} मिनिटं वाट पाहीन)...", flush=True)
+        time.sleep(nap)
+
+
 def latest_records(records):
     dates = [str(r.get("arrival_date") or "").strip() for r in records]
     dates = [d for d in dates if d]
@@ -82,8 +107,13 @@ def latest_records(records):
     return latest, [r for r in records if str(r.get("arrival_date") or "").strip() == latest]
 
 
-def build_groups(records):
+def build_groups(records, allow_old=False):
     post_date, rows = latest_records(records)
+    if _date_key(post_date) != _date_key(today_str()):
+        if not allow_old:
+            print(f"❌ आजचा Agmarknet डेटा नाही (शेवटचा {post_date}) — जुना डेटा पोस्ट करणार नाही.")
+            sys.exit(1)
+        print(f"⚠️ [TEST] आजचा डेटा नाही, तपासण्यासाठी {post_date} चा डेटा वापरत आहे.")
     states = {}
     for r in rows:
         st = str(r.get("state") or "").strip()
