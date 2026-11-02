@@ -58,10 +58,12 @@ def fetch_records():
 
 
 def _num(v):
+    # 4600.0 ऐवजी 4600 दिसावं म्हणून पूर्ण अंक असेल तर int
     try:
-        return float(v or 0)
+        f = float(v or 0)
     except (TypeError, ValueError):
-        return 0.0
+        return 0
+    return int(f) if f.is_integer() else round(f, 2)
 
 
 def _date_key(d):
