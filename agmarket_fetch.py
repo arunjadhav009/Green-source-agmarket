@@ -17,6 +17,7 @@ from pathlib import Path
 import requests
 
 API_URL = "https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070"
+PROXY_URL = "https://api.ajreelsmedia.in/"
 PAGE_SIZE = 18
 SMALL_STATE_LIMIT = 10
 IST = timezone(timedelta(hours=5, minutes=30))
@@ -33,17 +34,21 @@ def fetch_records():
         print("❌ DATA_GOV_API_KEY secret सापडला नाही (Settings → Secrets and variables → Actions).")
         sys.exit(1)
     _mask(key)
-    params = {"api-key": key, "format": "json", "filters[commodity]": "Onion", "limit": 9000, "offset": 0}
     last = ""
     for attempt in range(1, 4):
         try:
-            r = requests.get(API_URL, params=params, timeout=90)
+            if attempt < 3:   # GitHub ला data.gov.in थेट मिळत नाही → Hostinger वरचा proxy (api.ajreelsmedia.in)
+                r = requests.get(PROXY_URL, params={"limit": 9000, "offset": 0},
+                                 headers={"X-Api-Key": key}, timeout=180)
+            else:             # शेवटचा प्रयत्न थेट data.gov.in ला
+                r = requests.get(API_URL, params={"api-key": key, "format": "json", "filters[commodity]": "Onion",
+                                                  "limit": 9000, "offset": 0}, timeout=90)
             j = r.json()
             recs = [x for x in (j.get("records") or []) if x.get("commodity") == "Onion"]
             if recs:
                 print(f"Agmarknet: {len(recs)} नोंदी मिळाल्या")
                 return recs
-            last = j.get("message") or "रिकामा डेटा"
+            last = j.get("message") or j.get("error") or f"रिकामा डेटा (HTTP {r.status_code})"
         except Exception as e:
             last = type(e).__name__   # URL मध्ये key असते, म्हणून पूर्ण error छापत नाही
         print(f"⚠️ data.gov.in प्रयत्न {attempt}/3 अयशस्वी: {last}")
