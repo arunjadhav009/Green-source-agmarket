@@ -1,0 +1,50 @@
+{
+  "_note": "हिंदी (उत्तर भारत + मिक्स) और English (दक्षिण भारत) कव्हर के सवाल. weekday क्रम: monday..sunday. विषम दिन (ordinal) पर rotating_cta से सवाल आता है.",
+  "rotation_enabled": true,
+  "hi": {
+    "primary_cta": {
+      "monday": "आपकी मंडी में आज प्याज का भाव कितना रहा?",
+      "tuesday": "आज भाव देखकर प्याज बेचेंगे या रुकेंगे?",
+      "wednesday": "आपके यहां प्याज की आवक कैसी है?",
+      "thursday": "इस हफ्ते आपको सबसे अच्छा भाव कहां मिला?",
+      "friday": "आज आपके प्याज की क्वालिटी कैसी रही?",
+      "saturday": "अगले हफ्ते प्याज के भाव बढ़ेंगे या घटेंगे?",
+      "sunday": "इस हफ्ते आपने कितना प्याज बेचा?"
+    },
+    "rotating_cta": [
+      "आप किस मंडी में प्याज बेचने जाते हैं?",
+      "आपके जिले में आज प्याज का भाव क्या है?",
+      "प्याज भंडारण करेंगे या अभी बेचेंगे?",
+      "आपके यहां लाल प्याज ज्यादा है या सफेद?",
+      "मंडी तक प्याज ले जाने में कितना खर्च आता है?",
+      "इस बार प्याज की फसल कैसी रही?",
+      "आपको कौन सी मंडी सबसे भरोसेमंद लगती है?",
+      "आज मंडी में कितनी गाड़ियां आईं?",
+      "किस भाव पर आप प्याज बेचना चाहेंगे?",
+      "आपके इलाके के भाव कमेंट में लिखिए"
+    ]
+  },
+  "en": {
+    "primary_cta": {
+      "monday": "What onion price did your mandi get today?",
+      "tuesday": "Will you sell today or wait for a better price?",
+      "wednesday": "How are onion arrivals in your market?",
+      "thursday": "Where did you get the best price this week?",
+      "friday": "How was your onion quality today?",
+      "saturday": "Will onion prices go up next week?",
+      "sunday": "How much onion did you sell this week?"
+    },
+    "rotating_cta": [
+      "Which mandi do you usually sell onions in?",
+      "What is today's onion price in your district?",
+      "Will you store your onions or sell now?",
+      "Red or white onion: what grows more near you?",
+      "What does transport to the mandi cost you?",
+      "How was your onion harvest this season?",
+      "Which mandi do you trust the most?",
+      "How many vehicles reached your mandi today?",
+      "At what price would you sell your onions?",
+      "Share your local onion price in the comments"
+    ]
+  }
+}

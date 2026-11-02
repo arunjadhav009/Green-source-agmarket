@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="mr"><meta charset="utf-8">
+<style>
+@font-face{font-family:Noto;src:url('data:font/ttf;base64,__FONT__');font-weight:100 900;font-display:block}
+*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1350px;overflow:hidden;background:#2a0d24}
+#poster{position:relative;width:1080px;height:1350px;font-family:Noto,sans-serif;color:white}
+#static{position:absolute;width:1080px;height:1350px;inset:0}
+.text{position:absolute;display:flex;align-items:center;line-height:1.2;font-weight:800;white-space:nowrap}
+.text span{display:block;max-width:100%}.wrap{white-space:normal}
+#date{left:48px;top:122px;width:365px;height:59px;color:#ffec32;font-size:52px}
+#day{left:830px;top:24px;width:170px;height:100px;text-align:center;justify-content:center;white-space:normal;font-size:35px;line-height:1.15;color:#bd1308;transform:rotate(-4deg)}
+#day b{color:#101000;font-weight:800}
+#wtitle{left:175px;top:296px;width:540px;height:56px;justify-content:center;font-size:34px;color:#ffd54a;background:#3a1233;border-radius:14px}
+.rank{left:56px;width:80px;height:92px;justify-content:center;font-size:42px}
+.market{left:165px;width:421px;height:47px;font-size:35px}
+.district{left:166px;width:418px;height:34px;font-size:27px;font-weight:500}
+.price{left:594px;width:198px;height:59px;justify-content:flex-end;font-size:49px;color:#ffeb32;font-weight:900}
+.unit{left:628px;width:164px;height:28px;font-size:21px;justify-content:flex-end;font-weight:600}
+.first{color:#101008}.first.price{color:#ad001e;font-size:53px}
+#crown{position:absolute;left:66px;top:336px;width:60px;height:42px;filter:drop-shadow(0 2px 2px rgba(0,0,0,.45))}
+#cta .ico{display:inline-block;width:.9em;height:.9em;vertical-align:-.12em}
+#cta{left:110px;top:989px;width:474px;height:113px;color:#161604;text-align:center;justify-content:center;font-size:39px;line-height:1.25;font-weight:900}
+</style>
+<div id="poster">
+<img id="static" src="data:image/png;base64,__BACKGROUND__">
+__CROWN__
+<div id="dynamic">__TEXT_LAYERS__</div>
+</div>
+<script>
+window.__fit = async()=>{
+ await document.fonts.ready;
+ const problems=[];
+ for(const el of document.querySelectorAll('.text')){
+   const span=el.firstElementChild;
+   let size=parseFloat(getComputedStyle(el).fontSize);
+   const min=Number(el.dataset.min||22);
+   const fits=()=>span.scrollWidth<=el.clientWidth+1 && span.getBoundingClientRect().height<=el.clientHeight+1;
+   while(!fits() && size>min){size--;el.style.fontSize=size+'px'}
+   if(!fits())problems.push(el.id);
+ }
+ return {fontLoaded:document.fonts.check('35px Noto'),problems,
+   sizes:Object.fromEntries([...document.querySelectorAll('.text')].map(e=>[e.id,getComputedStyle(e).fontSize]))};
+};
+</script></html>

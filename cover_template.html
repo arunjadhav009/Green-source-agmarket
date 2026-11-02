@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    height: 1350px;
+    background: #2a0d24;
+    font-family: 'Poppins', 'Mukta', 'Noto Sans Gujarati', 'Noto Sans Gurmukhi',
+                 'Noto Sans Kannada', 'Noto Sans Telugu', 'Noto Sans Tamil', 'Noto Sans', sans-serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 44px 90px 40px 90px;
+    overflow: hidden;
+  }
+
+  /* वरची ओळ: ब्रँड + रोजची वेळ */
+  .top-row { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+  .brand {
+    background: #1b7a3e; color: #fff;
+    font-size: 26px; font-weight: 800; letter-spacing: 2px;
+    padding: 12px 30px; border-radius: 40px; white-space: nowrap;
+  }
+  .timing {
+    border: 2px solid #ffd54a; color: #ffd54a;
+    font-size: 23px; font-weight: 700;
+    padding: 9px 22px; border-radius: 40px; white-space: nowrap;
+  }
+
+  /* हेडर */
+  .date { margin-top: 26px; font-size: 64px; font-weight: 800; color: #ffd54a; line-height: 1.1; }
+  .state {
+    margin-top: 6px; font-size: 78px; font-weight: 800; line-height: 1.12; color: #fff;
+    letter-spacing: -0.5px;
+  }
+  .sub { margin-top: 8px; font-size: 32px; font-weight: 600; color: #e9cfe3; }
+
+  /* टॉप ५ */
+  .cards { margin-top: 26px; display: flex; flex-direction: column; gap: 14px; }
+  .card {
+    display: flex; align-items: center; gap: 24px;
+    background: #44183c; border-radius: 22px;
+    padding: 0 30px; height: 138px;
+  }
+  .card.first { background: #ffd54a; color: #2a0d24; }
+  .rank { font-size: 42px; font-weight: 800; color: #f2d7ec; width: 64px; flex-shrink: 0; }
+  .card.first .rank { color: #2a0d24; }
+  .info { flex: 1; min-width: 0; }
+  .market {
+    font-size: 40px; font-weight: 800; line-height: 1.15;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .district {
+    font-size: 24px; font-weight: 600; opacity: 0.85;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .price { font-size: 62px; font-weight: 800; color: #ffd54a; white-space: nowrap; flex-shrink: 0; }
+  .card.first .price { color: #2a0d24; }
+
+  /* कमेंटसाठी आवाहन */
+  .ask {
+    margin-top: 26px;
+    background: #1b7a3e; border-radius: 22px;
+    padding: 18px 28px; text-align: center;
+  }
+  .ask .q { font-size: 32px; font-weight: 800; line-height: 1.25; }
+  .ask .hint { margin-top: 4px; font-size: 24px; font-weight: 600; color: #d6f5e0; }
+
+  /* खालची ओळ */
+  .footer {
+    margin-top: auto;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 25px; font-weight: 600; color: #e9cfe3;
+  }
+  .footer .next { color: #fff; font-weight: 700; }
+</style>
+</head>
+<body>
+  <div class="top-row">
+    <div class="brand">GREEN SOURCE</div>
+    <div class="timing">{{TIMING}}</div>
+  </div>
+
+  <div class="date">{{POST_DATE}}</div>
+  <div class="state" id="state">{{STATE_TITLE}}</div>
+  <div class="sub">{{TOP_SUBTITLE}}</div>
+
+  <div class="cards">
+    {{TOP_CARDS_HTML}}
+  </div>
+
+  <div class="ask">
+    <div class="q">{{ASK_LINE}}</div>
+    <div class="hint">{{ASK_HINT}}</div>
+  </div>
+
+  <div class="footer">
+    <div>{{FOOTER_UNIT}}</div>
+    <div class="next">{{FOOTER_NEXT}} <span style="font-size:32px">&#10140;</span></div>
+  </div>
+
+  <script>
+    // राज्याचं नाव लांब असेल तर ते २ ओळींत बसेपर्यंत font लहान करणे
+    (function () {
+      var el = document.getElementById('state');
+      var size = 78;
+      while (el.scrollHeight > size * 1.12 * 2 + 4 && size > 40) {
+        size -= 2;
+        el.style.fontSize = size + 'px';
+      }
+      // नाव २ ओळींत गेलं तर कार्ड थोडे लहान करणे, म्हणजे सगळं १३५० px मध्ये बसेल
+      if (el.scrollHeight > size * 1.12 + 4) {
+        document.querySelectorAll('.card').forEach(function (c) { c.style.height = '118px'; });
+      }
+    })();
+  </script>
+</body>
+</html>
