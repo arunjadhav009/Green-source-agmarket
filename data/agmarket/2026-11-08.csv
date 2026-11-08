@@ -1,0 +1,191 @@
+﻿arrival_date,state,district,market,variety,grade,min_price,max_price,modal_price
+08/11/2026,Haryana,Sonipat,Ganaur APMC,Onion,FAQ,4000,4500,4200
+08/11/2026,Tamil Nadu,Kallakurichi,Ulundurpet RM,Bellary,Local,5000,6000,5500
+08/11/2026,Tamil Nadu,Dharmapuri,Pennagaram(Uzhavar Sandhai ),Bellary,Local,6500,6800,6650
+08/11/2026,Tamil Nadu,Krishnagiri,Hosur(Uzhavar Sandhai ),Bellary,Local,6000,6500,6250
+08/11/2026,Tamil Nadu,Salem,Ammapet(Uzhavar Sandhai ),Bellary,Local,6400,6800,6600
+08/11/2026,Tamil Nadu,Thiruvannamalai,Vandavasi(Uzhavar Sandhai ),Bellary,Local,6000,6500,6250
+08/11/2026,West Bengal,Bankura,Bishnupur(Bankura) APMC,Nasik,FAQ,4200,5000,4800
+08/11/2026,Tamil Nadu,Sivagangai,Karaikudi(Uzhavar Sandhai ),Bellary,Local,5500,7500,6500
+08/11/2026,Tamil Nadu,Sivagangai,Tirupatthur(Uzhavar Sandhai ),Bellary,Local,5500,7000,6250
+08/11/2026,Tamil Nadu,Virudhunagar,Sathur(Uzhavar Sandhai ),Bellary,Local,5000,6000,5500
+08/11/2026,Maharashtra,Pune,Pune(Moshi) ,Local,Local,1500,4200,2850
+08/11/2026,Maharashtra,Solapur,APMC Mangal Wedha ,Local,Local,1010,5000,4000
+08/11/2026,Tamil Nadu,The Nilgiris,Udhagamandalam(Uzhavar Sandhai ),Bellary,Local,6000,6500,6250
+08/11/2026,Tamil Nadu,Theni,Bodinayakanur(Uzhavar Sandhai ),Bellary,Local,6600,6600,6600
+08/11/2026,Tamil Nadu,Thiruvallur,Tiruvallur(Uzhavar Sandhai ),Bellary,Local,6000,6000,6000
+08/11/2026,Tamil Nadu,Salem,Vazhapadi(Uzhavar Sandhai),Bellary,Local,6000,6800,6400
+08/11/2026,Uttar Pradesh,Baghpat,Khekda APMC,Other,FAQ,2500,2500,2500
+08/11/2026,Tamil Nadu,Virudhunagar,Srivilliputhur(Uzhavar Sandhai ),Bellary,Local,4500,5000,4750
+08/11/2026,West Bengal,Darjeeling,Karsiyang(Matigara) APMC,Nasik,FAQ,5900,6100,6000
+08/11/2026,Haryana,Gurgaon,Farukh Nagar APMC,Other,Medium,4200,5400,4800
+08/11/2026,Tamil Nadu,Ramanathapuram,Ramanathapuram(Uzhavar Sandhai ),Bellary,Local,7000,7500,7250
+08/11/2026,Haryana,Rewari,Rewari APMC,Medium,Medium,3000,6000,4500
+08/11/2026,Punjab,Hoshiarpur,Tanda Urmur APMC,Nasik,Grade A,5000,6000,5500
+08/11/2026,Punjab,Ludhiana,Doraha APMC,Medium,Local,3800,4000,3900
+08/11/2026,Telangana,Hyderabad,RYTHU BAZAR MEHDIPATNAM,1st Sort,Grade A,4000,4000,4000
+08/11/2026,Tamil Nadu,Namakkal,Thiruchengodu RM,Bellary,Local,5500,6500,6000
+08/11/2026,Madhya Pradesh,Bhopal,Bhopal APMC,Onion-Organic,FAQ,1992.94,1992.94,1992.94
+08/11/2026,Tamil Nadu,Dharmapuri,Harur(Uzhavar Sandhai ),Bellary,Local,6000,6500,6250
+08/11/2026,Tamil Nadu,The Nilgiris,Coonoor(Uzhavar Sandhai ),Bellary,Local,6000,6500,6250
+08/11/2026,Haryana,Sonipat,Gohana APMC,Other,Medium,4000,4500,4200
+08/11/2026,Tamil Nadu,Dharmapuri,Dharmapuri(Uzhavar Sandhai ),Bellary,Local,5500,6000,5750
+08/11/2026,Tamil Nadu,Kallakurichi,Sankarapuram(Uzhavar Sandhai ),Bellary,Local,7000,7000,7000
+08/11/2026,Tamil Nadu,Kancheepuram,Padappai(Uzhavar Sandhai ),Bellary,Local,4500,6500,5500
+08/11/2026,Tamil Nadu,Ranipet,Ranipettai(Uzhavar Sandhai ),Bellary,Local,5500,6000,5750
+08/11/2026,Tamil Nadu,Thiruppur,Kangayam(Uzhavar Sandhai ),Bellary,Local,4500,5200,4850
+08/11/2026,Tamil Nadu,Thiruppur,Tiruppur (North) (Uzhavar Sandhai ),Bellary,Local,5000,6000,5500
+08/11/2026,Tamil Nadu,Dharmapuri,A.Jattihalli(Uzhavar Sandhai ),Bellary,Local,5000,6400,5700
+08/11/2026,Tamil Nadu,Sivagangai,Devakottai (Uzhavar Sandhai ),Bellary,Local,6000,7000,6500
+08/11/2026,Tamil Nadu,Thanjavur,Pattukottai(Uzhavar Sandhai ),Bellary,Local,5000,7000,6000
+08/11/2026,Telangana,Ranga Reddy,"Saroornagar,RBZ",Other,Medium,4000,4000,4000
+08/11/2026,Tamil Nadu,Thiruppur,Udumalpettai RM,Bellary,Local,5500,7000,6250
+08/11/2026,Uttar Pradesh,Saharanpur,Saharanpur APMC,Other,FAQ,2750,2800,2766.32
+08/11/2026,Maharashtra,Pune,Pune(Manjri) ,Local,Local,2500,4500,3500
+08/11/2026,Tamil Nadu,Krishnagiri,Krishnagiri(Uzhavar Sandhai ),Bellary,Local,5000,6000,5500
+08/11/2026,Tamil Nadu,Thanjavur,Kumbakonam (Uzhavar Sandhai ),Bellary,Local,4800,7200,6000
+08/11/2026,Tamil Nadu,Theni,Andipatti(Uzhavar Sandhai ),Bellary,Local,6000,6400,6200
+08/11/2026,Tamil Nadu,Karur,Kulithalai(Uzhavar Sandhai ),Bellary,Local,6000,7000,6500
+08/11/2026,Tamil Nadu,Salem,Athur(Uzhavar Sandhai ),Bellary,Local,6000,6800,6400
+08/11/2026,Tamil Nadu,Theni,Periyakulam(Uzhavar Sandhai ),Bellary,Local,6000,6400,6200
+08/11/2026,Punjab,Ferozpur,Zira APMC,Other,Local,4800,4800,4800
+08/11/2026,Tripura,Khowai,Kalyanpur APMC,Nasik,FAQ,5600,5700,5650
+08/11/2026,Keralam,Palakad,Koduvayoor Market,Big,Medium,4500,4900,4700
+08/11/2026,Tamil Nadu,Pudukkottai,Viralimalai(Uzhavar Sandhai ),Bellary,Local,6000,7000,6500
+08/11/2026,West Bengal,Uttar Dinajpur,Islampur APMC,Dry F.A.Q.,FAQ,4000,4500,4200
+08/11/2026,Tamil Nadu,Thiruvannamalai,Polur(Uzhavar Sandhai ),Bellary,Local,5000,6000,5500
+08/11/2026,Tamil Nadu,Thiruvannamalai,Tiruvannamalai(Uzhavar Sandhai ),Bellary,Local,5000,6000,5500
+08/11/2026,Tamil Nadu,Thiruvallur,Naravarikuppam(Uzhavar Sandhai ),Bellary,Local,6000,6000,6000
+08/11/2026,Tamil Nadu,Vellore,Gudiyatham(Uzhavar Sandhai ),Bellary,Local,6000,6000,6000
+08/11/2026,Tamil Nadu,Vellore,Kahithapattarai(Uzhavar Sandhai ),Bellary,Local,6000,6000,6000
+08/11/2026,Tamil Nadu,Coimbatore,Sundarapuram(Uzhavar Sandhai ),Bellary,Local,5800,6200,6000
+08/11/2026,Haryana,Gurgaon,Gurgaon APMC,Other,Grade B,4000,4600,4400
+08/11/2026,West Bengal,Sounth 24 Parganas,Baruipur(Canning) APMC,Red,FAQ,5100,5300,5200
+08/11/2026,Tamil Nadu,Coimbatore,Kurichi(Uzhavar Sandhai ),Bellary,Local,5800,6200,6000
+08/11/2026,Bihar,Madhubani,Madhubani APMC,Nasik,FAQ,4500,4700,4600
+08/11/2026,Assam,Tinsukia,Tinsukia Market,Onion,FAQ,5200,5600,5400
+08/11/2026,Tamil Nadu,Pudukkottai,Karambakkudi(Uzhavar Sandhai ),Bellary,Local,6000,7000,6500
+08/11/2026,Madhya Pradesh,Khandwa,Khandwa APMC,Local,FAQ,1500,3800,2200
+08/11/2026,Tamil Nadu,The Nilgiris,Gudalur(Uzhavar Sandhai ),Bellary,Local,6000,6500,6250
+08/11/2026,West Bengal,Malda,Samsi APMC,Nasik,FAQ,4300,4500,4400
+08/11/2026,Haryana,Karnal,Tarori APMC,Other,Medium,3000,4500,4000
+08/11/2026,Punjab,Tarntaran,Patti APMC,Other,Non-FAQ,0.01,0.01,0.01
+08/11/2026,Telangana,Hyderabad,RYTHU BAZAR FALAKNUMA,Onion,Grade A,4000,4000,4000
+08/11/2026,Madhya Pradesh,Narsinghpur,Gadarwada (F&V) APMC,Other,Grade B,3800,3800,3800
+08/11/2026,Keralam,Kollam,Anchal Market,Small,Local,8800,8800,8800
+08/11/2026,Tamil Nadu,Thiruchirappalli,Thuraiyur RM,Bellary,Local,6000,7000,6500
+08/11/2026,Punjab,Sangrur,Ahmedgarh APMC,Other,Medium,4200,4500,4500
+08/11/2026,Tamil Nadu,Namakkal,Kumarapalayam(Uzhavar Sandhai ),Bellary,Local,7800,8000,7900
+08/11/2026,Tamil Nadu,Namakkal,Paramathivelur(Uzhavar Sandhai ),Bellary,Local,5500,6000,5750
+08/11/2026,Tamil Nadu,Perambalur,Perambalur(Uzhavar Sandhai ),Bellary,Local,6800,7200,7000
+08/11/2026,Tamil Nadu,Salem,Sooramangalam(Uzhavar Sandhai ),Bellary,Local,6000,6800,6400
+08/11/2026,Tamil Nadu,Cuddalore,Vadalur(Uzhavar Sandhai ),Bellary,Local,4000,5000,4500
+08/11/2026,Tamil Nadu,Thiruchirappalli,Thiruverumbur(Uzhavar Sandhai ),Bellary,Local,5000,6500,5750
+08/11/2026,Tamil Nadu,Virudhunagar,Sivakasi(Uzhavar Sandhai ),Bellary,Local,5000,6000,5500
+08/11/2026,Maharashtra,Chattrapati Sambhajinagar,APMC Chattrapati Sambhajinagar ,Other,Local,2300,4100,3200
+08/11/2026,Tamil Nadu,Pudukkottai,Pudukottai(Uzhavar Sandhai ),Bellary,Local,7000,8000,7500
+08/11/2026,West Bengal,Nadia,Bethuadahari APMC,Nasik,Grade A,4800,5000,4900
+08/11/2026,Tamil Nadu,Karur,Gandhigramam(Uzhavar Sandhai),Bellary,Local,6000,6500,6250
+08/11/2026,West Bengal,Uttar Dinajpur,Raiganj APMC,Nasik,FAQ,4000,4500,4200
+08/11/2026,Tamil Nadu,Erode,Gobichettipalayam(Uzhavar Sandhai ),Bellary,Local,6500,7000,6750
+08/11/2026,Tamil Nadu,Pudukkottai,Ponnamaravathi(Uzhavar Sandhai),Bellary,Local,7500,8000,7750
+08/11/2026,Keralam,Palakad,Koduvayoor Market,Small,Medium,11500,11900,11700
+08/11/2026,Tamil Nadu,Ramanathapuram,Paramakudi(Uzhavar Sandhai ),Bellary,Local,6500,7000,6750
+08/11/2026,Tamil Nadu,Pudukkottai,Alangudi(Uzhavar Sandhai ),Bellary,Local,6000,7000,6500
+08/11/2026,Tripura,Sepahijala,Melaghar APMC,Small,Local,5000,5500,5200
+08/11/2026,Odisha,Dhenkanal,Hindol APMC,Other,Grade B,4700,5000,4800
+08/11/2026,Tamil Nadu,Ariyalur,Jeyankondam (Uzhavar Sandhai ),Bellary,Local,5000,5500,5250
+08/11/2026,Tamil Nadu,Coimbatore,RSPuram(Uzhavar Sandhai ),Bellary,Local,5400,5800,5600
+08/11/2026,Tamil Nadu,Coimbatore,Singanallur(Uzhavar Sandhai ),Bellary,Local,5600,6000,5800
+08/11/2026,Tamil Nadu,Coimbatore,Pollachi(Uzhavar Sandhai ),Bellary,Local,5600,6000,5800
+08/11/2026,Assam,Kamrup,Pamohi(Garchuk) APMC,Onion,FAQ,5500,6500,6000
+08/11/2026,Tamil Nadu,Cuddalore,Chidambaram(Uzhavar Sandhai ),Bellary,Local,4000,5000,4500
+08/11/2026,Tamil Nadu,Cuddalore,Cuddalore(Uzhavar Sandhai ),Bellary,Local,4000,4000,4000
+08/11/2026,Madhya Pradesh,Bhopal,Bhopal APMC,Onion,FAQ,1560,1861.45,1861.45
+08/11/2026,Tamil Nadu,Kannyiakumari,Vadaseri RM,Bellary,Local,7500,8000,7750
+08/11/2026,Tamil Nadu,Krishnagiri,Kaveripattinam(Uzhavar Sandhai ),Bellary,Local,4000,5000,4500
+08/11/2026,Haryana,Hissar,Hansi APMC,Other,FAQ,4000,5000,4500
+08/11/2026,Haryana,Panipat,Madlauda APMC,Onion,FAQ,4200,4500,4350
+08/11/2026,Keralam,Kollam,Anchal Market,Big,Local,6000,6000,6000
+08/11/2026,Rajasthan,Hanumangarh,Goluwala APMC,1st Sort,Non-FAQ,4500,4600,4600
+08/11/2026,Tamil Nadu,Erode,Perundurai(Uzhavar Sandhai ),Bellary,Local,6500,7000,6750
+08/11/2026,Tamil Nadu,Dharmapuri,Palacode(Uzhavar Sandhai ),Bellary,Local,5500,6000,5750
+08/11/2026,Tamil Nadu,Dindigul,Chinnalapatti(Uzhavar Sandhai ),Bellary,Local,6500,7000,6750
+08/11/2026,Tamil Nadu,Dindigul,Dindigul(Uzhavar Sandhai ),Bellary,Local,6000,7000,6500
+08/11/2026,Tamil Nadu,Namakkal,Rasipuram(Uzhavar Sandhai ),Bellary,Local,6400,7400,6900
+08/11/2026,Tamil Nadu,Madurai,Anna nagar(Uzhavar Sandhai ),Bellary,Local,6600,7200,6900
+08/11/2026,Tamil Nadu,Salem,Mettur(Uzhavar Sandhai ),Bellary,Local,5000,7000,6000
+08/11/2026,Tamil Nadu,Salem,Thathakapatti(Uzhavar Sandhai ),Bellary,Local,6000,6800,6400
+08/11/2026,Tamil Nadu,Theni,Chinnamanur(Uzhavar Sandhai ),Bellary,Local,6800,6800,6800
+08/11/2026,Tamil Nadu,Theni,Kambam(Uzhavar Sandhai ),Bellary,Local,5600,6000,5800
+08/11/2026,Tamil Nadu,Tirunelveli,NGO Colony(Uzhavar Sandhai ),Bellary,Local,5500,6400,5950
+08/11/2026,Tamil Nadu,Thiruvannamalai,Chengam(Uzhavar Sandhai ),Bellary,Local,5000,6000,5500
+08/11/2026,Tamil Nadu,Cuddalore,Panruti(Uzhavar Sandhai ),Bellary,Local,5000,5000,5000
+08/11/2026,Tamil Nadu,Salem,Edapadi (Uzhavar Sandhai ),Bellary,Local,6500,7000,6750
+08/11/2026,Tamil Nadu,Salem,Elampillai(Uzhavar Sandhai ),Bellary,Local,6000,6800,6400
+08/11/2026,Tamil Nadu,Salem,Hasthampatti(Uzhavar Sandhai ),Bellary,Local,6500,6800,6650
+08/11/2026,Tamil Nadu,Sivagangai,Singampunari(Uzhavar Sandhai ),Bellary,Local,6000,7000,6500
+08/11/2026,Tamil Nadu,Thiruchirappalli,Manachanallur(Uzhavar Sandhai ),Bellary,Local,5000,6500,5750
+08/11/2026,Tamil Nadu,Thiruchirappalli,Manapparai(Uzhavar Sandhai ),Bellary,Local,5000,6500,5750
+08/11/2026,Tamil Nadu,Thiruchirappalli,Musiri(Uzhavar Sandhai ),Bellary,Local,5500,7000,6250
+08/11/2026,Tamil Nadu,Kannyiakumari,Myladi(Uzhavar Sandhai ),Bellary,Local,6500,7000,6750
+08/11/2026,Tamil Nadu,Villupuram,Tindivanam RM,Bellary,Local,6000,6000,6000
+08/11/2026,Karnataka,Haveri,Ranebennur APMC,Local,Medium,1000,1000,1000
+08/11/2026,Uttarakhand,Haridwar,Roorkee APMC,Other,Medium,4000,6000,5000
+08/11/2026,Tamil Nadu,Cuddalore,Viruthachalam(Uzhavar Sandhai ),Bellary,Local,5000,5000,5000
+08/11/2026,Tamil Nadu,Thenkasi,Sankarankoil(Uzhavar Sandhai ),Bellary,Local,5000,7000,6000
+08/11/2026,Tamil Nadu,Virudhunagar,Aruppukottai(Uzhavar Sandhai ),Bellary,Local,5500,6000,5750
+08/11/2026,Madhya Pradesh,Badwani,Sendhwa(F&V) APMC,Red,Medium,1400,2000,1800
+08/11/2026,Tamil Nadu,Thiruppur,Dharapuram(Uzhavar Sandhai ),Bellary,Local,5500,6000,5750
+08/11/2026,Tamil Nadu,Thiruvallur,Ambattur(Uzhavar Sandhai ),Bellary,Local,6000,6000,6000
+08/11/2026,Tripura,Sepahijala,Jampuijala APMC,Other,Medium,7800,8000,7900
+08/11/2026,Telangana,Siddipet,Siddipet(Rythu Bazar) ,Onion,Grade A,4500,5500,5000
+08/11/2026,Telangana,Ranga Reddy,"Vanasthalipuram,RBZ",Onion,Grade A,4000,4000,4000
+08/11/2026,Assam,Kamrup,Pamohi(Garchuk) APMC,Local,FAQ,5400,6000,5700
+08/11/2026,Odisha,Bargarh,Bargarh APMC,Onion,Medium,3000,4000,3500
+08/11/2026,Tamil Nadu,Thiruppur,Tiruppur (South) (Uzhavar Sandhai ),Bellary,Local,4000,5000,4500
+08/11/2026,Tamil Nadu,Krishnagiri,Avallapalli(Uzhavar Sandhai ),Bellary,Local,6000,6500,6250
+08/11/2026,Tamil Nadu,Dharmapuri,Karimangalam(Uzhavar Sandhai),Bellary,Local,5000,6000,5500
+08/11/2026,Tamil Nadu,Krishnagiri,Denkanikottai(Uzhavar Sandhai ),Bellary,Local,6000,6500,6250
+08/11/2026,Tamil Nadu,Namakkal,Mohanur(Uzhavar Sandhai ),Bellary,Local,6300,7000,6650
+08/11/2026,Tamil Nadu,Namakkal,Namakkal(Uzhavar Sandhai ),Bellary,Local,5000,6500,5750
+08/11/2026,Tamil Nadu,Salem,Thammampatti (Uzhavar Sandhai ),Bellary,Local,5000,7000,6000
+08/11/2026,Tamil Nadu,Theni,Theni(Uzhavar Sandhai ),Bellary,Local,6000,6400,6200
+08/11/2026,Tamil Nadu,Tirunelveli,Melapalayam(Uzhavar Sandhai ),Bellary,Local,4000,6400,5200
+08/11/2026,Tamil Nadu,Coimbatore,Sulur(Uzhavar Sandhai ),Bellary,Local,5600,6000,5800
+08/11/2026,Tamil Nadu,Theni,Devaram(Uzhavar Sandhai ),Bellary,Local,6500,6500,6500
+08/11/2026,Tamil Nadu,Salem,Jalagandapuram(Uzhavar Sandhai ),Bellary,Local,6500,7000,6750
+08/11/2026,Tamil Nadu,Thiruchirappalli,KKNagar(Uzhavar Sandhai ),Bellary,Local,6000,7000,6500
+08/11/2026,Maharashtra,Jalgaon,APMC Bhusaval ,Unhali,Local,3000,3500,3300
+08/11/2026,Tamil Nadu,Vellore,Vellore RM,Bellary,Local,5000,5400,5200
+08/11/2026,Tamil Nadu,Thirupathur,Thirupathur RM,Bellary,Local,6000,6000,6000
+08/11/2026,Gujarat,Dahod,Dahod(Veg. Market) APMC,Onion,Local,4000,5000,4500
+08/11/2026,West Bengal,Purba Bardhaman,Kalna APMC,Local,FAQ,4300,4400,4400
+08/11/2026,West Bengal,Purba Bardhaman,Kalna APMC,Nasik,FAQ,4800,5000,4900
+08/11/2026,Keralam,Thiruvananthapuram,Parassala Market,Onion,Local,6800,7200,7000
+08/11/2026,Tamil Nadu,Erode,Thalavadi(Uzhavar Sandhai ),Bellary,Local,6000,6500,6250
+08/11/2026,West Bengal,Hooghly,Pandua APMC,Dry F.A.Q.,FAQ,3900,4250,4100
+08/11/2026,Tamil Nadu,Villupuram,Gingee(Uzhavar Sandhai ),Bellary,Local,5500,5500,5500
+08/11/2026,Tamil Nadu,Vellore,Katpadi (Uzhavar Sandhai ),Bellary,Local,5500,6000,5750
+08/11/2026,Tamil Nadu,Pudukkottai,Aranthangi(Uzhavar Sandhai ),Bellary,Local,6000,7000,6500
+08/11/2026,Tamil Nadu,Vellore,Perampet(Uzhavar Sandhai),Bellary,Local,5500,6000,5750
+08/11/2026,Maharashtra,Pune,Pune(Pimpri) ,Local,Local,3100,4500,3800
+08/11/2026,Uttar Pradesh,Mathura,Kosikalan APMC,Other,FAQ,2500,2500,2500
+08/11/2026,Tamil Nadu,Kallakurichi,Kallakurichi(Uzhavar Sandhai ),Bellary,Local,7000,7000,7000
+08/11/2026,Tamil Nadu,Thirupathur,Natrampalli(Uzhavar Sandhai ),Bellary,Local,5000,6000,5500
+08/11/2026,Punjab,Sangrur,Bhawanigarh APMC,Other,Medium,3500,3500,3500
+08/11/2026,Tamil Nadu,Coimbatore,Vadavalli(Uzhavar Sandhai ),Bellary,Local,5500,5800,5650
+08/11/2026,Himachal Pradesh,Mandi,SMY Takoli,Other,Medium,4000,4800,4500
+08/11/2026,Punjab,Jalandhar,Phillaur(Apra Mandi) APMC,Other,FAQ,5000,5000,5000
+08/11/2026,Uttar Pradesh,Hardoi,Hardoi APMC,Other,FAQ,2300,2300,2300
+08/11/2026,Tamil Nadu,Thiruvannamalai,Arani(Uzhavar Sandhai ),Bellary,Local,6000,6500,6250
+08/11/2026,Tamil Nadu,Thiruvallur,Paruthipattu(Uzhavar Sandhai ),Bellary,Local,6000,6000,6000
+08/11/2026,Tamil Nadu,Villupuram,Villupuram(Uzhavar Sandhai ),Bellary,Local,6000,6000,6000
+08/11/2026,Tamil Nadu,Thiruvannamalai,Cheyyar(Uzhavar Sandhai ),Bellary,Local,5000,6500,5750
+08/11/2026,Tamil Nadu,Erode,Sathiyamagalam(Uzhavar Sandhai ),Bellary,Local,6500,7000,6750
+08/11/2026,Telangana,Hyderabad,RYTHU BAZAR ERRAGADDA,1st Sort,Grade A,4000,4000,4000
+08/11/2026,Keralam,Idukki,Thodupuzha Market,Big,Large,7200,7400,7400
+08/11/2026,Keralam,Idukki,Thodupuzha Market,Small,Large,11400,11600,11600
+08/11/2026,Tamil Nadu,Karur,Karur(Uzhavar Sandhai ),Bellary,Local,6000,6500,6250
+08/11/2026,Telangana,Medchal Malkajgiri,"Kukatpally,RBZ",1st Sort,Local,4000,4000,4000
+08/11/2026,Keralam,Kollam,Chathanoor Market,Other,FAQ,5500,6500,6000
